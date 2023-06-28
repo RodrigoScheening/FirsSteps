@@ -1,0 +1,24 @@
+<ion-header [translucent]="true">
+  <ion-toolbar (click)="$event.stopPropagation()">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Actualizar</ion-title>
+    <ion-title>Recordatorios</ion-title>
+    <ion-buttons slot="end">
+      <ion-back-button text="Volver"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-label>Hora:</ion-label>
+    <ion-datetime [(ngModel)]="horaRecordatorio" displayFormat="HH:mm"></ion-datetime>
+  </ion-item>
+  <ion-item>
+    <ion-label>Descripción:</ion-label>
+    <ion-input [(ngModel)]="textoRecordatorio"></ion-input>
+  </ion-item>
+  <ion-button expand="block" (click)="updateRecordatorio()">Actualizar recordatorio</ion-button>
+</ion-content>

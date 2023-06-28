@@ -1,0 +1,124 @@
+{
+    "vacunas":[
+ {
+  "Vacunación del": "Lactante",
+  "EDAD": "Recién Nacido",
+  "VACUNA": "BCG",
+  "PROTEGE CONTRA": "Enfermedades invasoras por M. tuberculosis"
+ },
+ {
+  "Vacunación del": "Lactante",
+  "EDAD": "Recién Nacido",
+  "VACUNA": "Hepatitis B",
+  "PROTEGE CONTRA": "Hepatitis B"
+ },
+ {
+  "Vacunación del": "Lactante",
+  "EDAD": "2 y 4 meses",
+  "VACUNA": "Hexavalente",
+  "PROTEGE CONTRA": "Hepatitis B, Difteria, Tétanos, Tos Convulsiva, Enfermedades invasoras por H. influenzae tipo b (Hib), Poliomielitis"
+ },
+ {
+  "Vacunación del": "Lactante",
+  "EDAD": "2 y 4 meses",
+  "VACUNA": "Neumocócica conjugada",
+  "PROTEGE CONTRA": "Enfermedades invasoras por S. pneumoniae"
+ },
+ {
+  "Vacunación del": "Lactante",
+  "EDAD": "2 y 4 meses",
+  "VACUNA": "Meningocócica recombinante\n(inicio segundo semestre)",
+  "PROTEGE CONTRA": "Enfermedades invasoras por N. meningitidis\n(serogrupo B)"
+ },
+ {
+  "Vacunación del": "Lactante",
+  "EDAD": "6 meses",
+  "VACUNA": "Hexavalente",
+  "PROTEGE CONTRA": "Hepatitis B, Difteria, Tétanos, Tos Convulsiva, Enfermedades invasoras por H. influenzae tipo b (Hib), Poliomielitis"
+ },
+ {
+  "Vacunación del": "Lactante",
+  "EDAD": "6 meses",
+  "VACUNA": "Neumocócica conjugada*",
+  "PROTEGE CONTRA": "Enfermedades invasoras por S. pneumoniae"
+ },
+ {
+  "Vacunación del": "Lactante",
+  "EDAD": "12 meses",
+  "VACUNA": "SRP",
+  "PROTEGE CONTRA": "Sarampión, Rubéola y Parotiditis"
+ },
+ {
+  "Vacunación del": "Lactante",
+  "EDAD": "12 meses",
+  "VACUNA": "Meningocócica conjugada",
+  "PROTEGE CONTRA": "Enfermedades invasoras por N. meningitidis (A, C, W, Y)"
+ },
+ {
+  "Vacunación del": "Lactante",
+  "EDAD": "12 meses",
+  "VACUNA": "Neumocócica conjugada",
+  "PROTEGE CONTRA": "Enfermedades invasoras por S. pneumoniae"
+ },
+ {
+  "Vacunación del": "Lactante",
+  "EDAD": "18 meses",
+  "VACUNA": "Hexavalente",
+  "PROTEGE CONTRA": "Hepatitis B, Difteria, Tétanos, Tos Convulsiva, Enfermedades invasoras por H. influenzae tipo b (Hib), Poliomielitis"
+ },
+ {
+  "Vacunación del": "Lactante",
+  "EDAD": "18 meses",
+  "VACUNA": "Hepatitis A",
+  "PROTEGE CONTRA": "Hepatitis A"
+ },
+ {
+  "Vacunación del": "Lactante",
+  "EDAD": "18 meses",
+  "VACUNA": "Varicela",
+  "PROTEGE CONTRA": "Varicela"
+ },
+ {
+  "Vacunación del": "Lactante",
+  "EDAD": "18 meses",
+  "VACUNA": "Fiebre Amarilla**",
+  "PROTEGE CONTRA": "Fiebre Amarilla"
+ },
+ {
+  "Vacunación del": "Pre-escolar",
+  "EDAD": "36 meses",
+  "VACUNA": "SRP",
+  "PROTEGE CONTRA": "Sarampión, Rubéola y Parotiditis"
+ },
+ {
+  "Vacunación del": "Pre-escolar",
+  "EDAD": "36 meses",
+  "VACUNA": "Varicela",
+  "PROTEGE CONTRA": "Varicela"
+ },
+ {
+  "Vacunación del": "Escolar",
+  "EDAD": "1° Básico",
+  "VACUNA": "dTp (acelular)",
+  "PROTEGE CONTRA": "Difteria, Tétanos, Tos Convulsiva"
+ },
+ {
+  "Vacunación del": "Escolar",
+  "EDAD": "4° Básico",
+  "VACUNA": "VPH",
+  "PROTEGE CONTRA": "Infecciones por Virus Papiloma Humano"
+ },
+ {
+  "Vacunación del": "Escolar",
+  "EDAD": "5° Básico",
+  "VACUNA": "VPH",
+  "PROTEGE CONTRA": "Infecciones por Virus Papiloma Humano"
+ },
+ {
+  "Vacunación del": "Escolar",
+  "EDAD": "8° Básico",
+  "VACUNA": "dTp (acelular)",
+  "PROTEGE CONTRA": "Difteria, Tétanos, Tos Convulsiva"
+ }
+]
+}

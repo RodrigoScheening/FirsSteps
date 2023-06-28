@@ -1,0 +1,30 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Esquema Vacunas</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form [formGroup]="filtroForm" (ngSubmit)="buscarVacunas()">
+    <ion-list>
+      <ion-item>
+        <ion-label>Vacunación Del...</ion-label>
+        <ion-select formControlName="tipoInfante" (ionChange)="actualizarEdades()">
+          <ion-select-option value="Lactante">Lactante</ion-select-option>
+          <ion-select-option value="Pre-escolar">Pre-escolar</ion-select-option>
+          <ion-select-option value="Escolar">Escolar</ion-select-option>
+        </ion-select>
+      </ion-item>
+      <ion-item *ngIf="filtroForm.get('tipoInfante')?.value">
+        <ion-label>Seleccionar Edad</ion-label>
+        <ion-select formControlName="edadInfante">
+          <ion-select-option *ngFor="let edad of edades" [value]="edad">{{ edad }}</ion-select-option>
+        </ion-select>
+      </ion-item>
+    </ion-list>
+    <ion-button expand="full" type="submit" [disabled]="filtroForm.invalid">Buscar</ion-button>
+  </form>
+</ion-content>
